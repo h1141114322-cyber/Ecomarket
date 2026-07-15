@@ -1,0 +1,164 @@
+/* ==========================
+   RESET GENERAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f5dc;
+    color:#292929;
+    line-height:1.6;
+}
+
+/* ==========================
+   VARIABLES
+========================== */
+
+:root{
+
+    --verde:#2ecc71;
+    --verdeOscuro:#27ae60;
+    --beige:#f3f3d6;
+    --gris:#181717;
+    --blanco:#ffffff;
+    --negro:#222;
+
+}
+
+/* ==========================
+   CONTENEDOR
+========================== */
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+/* ==========================
+   TIPOGRAFÍA
+========================== */
+
+h1,h2,h3,h4{
+
+    color:var(--negro);
+
+}
+
+p{
+
+    color:var(--gris);
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+img{
+
+    width:100%;
+    display:block;
+
+}
+
+/* ==========================
+   BOTONES
+========================== */
+
+.btn{
+
+    display:inline-block;
+
+    background:var(--verde);
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+    font-weight:bold;
+
+}
+
+.btn:hover{
+
+    background:var(--verdeOscuro);
+
+    transform:scale(1.05);
+
+}
+
+/* ==========================
+   TITULOS
+========================== */
+
+.section-title{
+
+    text-align:center;
+
+    font-size:40px;
+
+    margin-bottom:10px;
+
+}
+
+.section-subtitle{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+/* ==========================
+   ESPACIADO
+========================== */
+
+section{
+
+    padding:80px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+.section-subtitle{
+
+    text-align:center;
+
+    color:#4b4b4b;
+
+    margin-bottom:50px;
+
+}
