@@ -4,57 +4,51 @@ HEADER
 
 header{
     background:#ffffff;
-    box-shadow:0 5px 15px rgba(194, 193, 193, 0.596);
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
     position:sticky;
     top:0;
     z-index:1000;
 }
-
 header .container{
 
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
-    min-height:80px;
+    min-height:85px;
 
 }
 
 .logo{
-    display:flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
 
 .logo img{
-    height:60px;
-    width:auto;
-    display:block;
+    height: 55px;
+    width: auto;
+    object-fit: contain;
+    display: block;
 }
 
 nav ul{
-
     display:flex;
-
-    gap:30px;
-
+    gap:35px;
+    list-style:none;
 }
 
 nav a{
-
-    color:#1f1f1f;
-
-    font-weight:bold;
-
+    color:#2c3e50;
+    font-weight:600;
+    font-size:17px;
     transition:.3s;
-
 }
 
 nav a:hover{
-
-    color:#02ce50;
-
+    color:#2ecc71;
 }
 
 
@@ -73,7 +67,7 @@ nav a:hover{
 }
 
 .header-icons img:hover{
-    transform: scale(1.3);
+    transform: scale(1.15);
 }
 
 /*====================================
@@ -101,48 +95,36 @@ HERO
 }
 
 .hero::before{
-
-    content:"";
-
-    position:absolute;
-
-    inset:0;
-
-    background:rgba(36, 36, 36, 0.45);
-
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
 }
 
 .hero-content{
-
-    position:relative;
-
-    z-index:2;
-
-    color:rgb(56, 56, 56);
-
-    text-align:center;
-
-    width:70%;
-
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    width: 70%;
 }
 
 .hero-content h2{
-
-    font-size:64px;
-
-    margin-bottom:25px;
-
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
 }
 
 .hero-content p{
-
-    font-size:22px;
-
-    line-height:1.7;
-
-    margin-bottom:35px;
-
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 /*====================================
 PRODUCTOS
 =====================================*/
@@ -663,3 +645,16 @@ nav a:hover{
 
 }
 
+.section-title{
+    text-align:center;
+    font-size:42px;
+    color:#27ae60;
+    margin-top:70px;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:50px;
+    font-size:18px;
+}
