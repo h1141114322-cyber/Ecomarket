@@ -212,6 +212,10 @@ RESPONSIVE TABLET
 
 @media(max-width:992px){
 
+    .about-content{
+    grid-template-columns:1fr;
+}
+
 header .container{
 
 flex-direction:column;
