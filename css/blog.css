@@ -1,0 +1,665 @@
+/*====================================
+CORRECCIÓN PARA EL HEADER
+=====================================*/
+
+.blog-hero{
+    padding-top: 120px;
+}
+
+/* ===========================
+   BLOG - VIDA SOSTENIBLE
+=========================== */
+
+.blog-hero{
+    background: #f4f8f3;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.blog-hero .container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.blog-category{
+    display: inline-block;
+    background: #2E7D32;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.blog-hero h1{
+    font-size: 3rem;
+    color: #1B4332;
+    margin-bottom: 20px;
+}
+
+.blog-hero p{
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/*====================================
+ENCABEZADO DE PUBLICACIONES
+=====================================*/
+
+.blog-heading{
+    padding: 50px 20px 20px;
+    text-align: center;
+}
+
+.blog-heading h2{
+    font-size: 2.3rem;
+    color: #1B4332;
+    margin-bottom: 15px;
+}
+
+.blog-heading p{
+    color: #666;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+/*====================================
+TARJETAS BLOG
+=====================================*/
+
+.blog-posts{
+
+    padding:60px 0;
+
+}
+
+.blog-card{
+
+    display:grid;
+
+    grid-template-columns:40% 60%;
+
+    background:#fff;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    margin-bottom:40px;
+
+    transition:.3s;
+
+}
+
+.blog-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+
+.blog-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.blog-info{
+
+    padding:35px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.article-header .categoria{
+
+    background:#2ecc71;
+    color:white;
+    width:max-content;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:15px;
+
+}
+
+.blog-info time{
+
+    color:#888;
+
+    margin-bottom:15px;
+
+}
+
+.blog-info h2{
+
+    color:#1B4332;
+
+    margin-bottom:20px;
+
+}
+
+.blog-info p{
+
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:25px;
+
+}
+
+.leer-mas{
+
+    width:max-content;
+
+    background:#2ecc71;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.leer-mas:hover{
+
+    background:#27ae60;
+
+}
+
+@media(max-width:768px){
+
+.blog-card{
+
+grid-template-columns:1fr;
+
+}
+
+.blog-image{
+
+height:250px;
+
+}
+
+}
+/*====================================
+   ARTICULOS INTERNOS BLOG
+=====================================*/
+
+.article-page{
+
+    background:#f4f8f3;
+    padding:40px 20px;
+
+}
+
+
+.article-page .breadcrumb{
+
+    max-width:1200px;
+    margin:auto;
+    margin-bottom:30px;
+    color:#666;
+
+}
+
+
+.breadcrumb a{
+
+    color:#2E7D32;
+    text-decoration:none;
+
+}
+
+
+.article-layout{
+
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:70% 30%;
+
+    gap:35px;
+
+}
+
+
+
+/*====================================
+   CONTENIDO PRINCIPAL
+=====================================*/
+
+
+.article-content{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+
+.article-header h1{
+
+    color:#1B4332;
+
+    font-size:3rem;
+
+    line-height:1.2;
+
+    margin:20px 0;
+
+
+}
+
+
+.article-meta{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    color:#777;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.article-content figure{
+
+    margin:0 0 30px;
+
+}
+
+
+.article-content figure img{
+
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+
+
+.article-content figcaption{
+
+    text-align:center;
+
+    color:#777;
+
+    font-size:14px;
+
+    margin-top:10px;
+
+}
+
+
+
+/* TEXTOS */
+
+
+.article-content h2{
+
+    color:#1B4332;
+
+    margin-top:35px;
+
+    margin-bottom:15px;
+
+}
+
+
+.article-content p{
+
+    color:#555;
+
+    line-height:1.8;
+
+    font-size:17px;
+
+}
+
+
+
+.article-content blockquote{
+
+    background:#eef7ee;
+
+    border-left:5px solid #2E7D32;
+
+    padding:25px;
+
+    margin:30px 0;
+
+    font-style:italic;
+
+    color:#1B4332;
+
+}
+
+
+
+
+
+.article-content section img{
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    margin:20px 0;
+
+}
+
+
+
+
+/*====================================
+ SIDEBAR
+=====================================*/
+
+
+.sidebar{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+    position:sticky;
+
+    top:100px;
+
+    height:max-content;
+
+}
+
+
+
+.sidebar > div{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+
+
+.sidebar h3{
+
+    color:#1B4332;
+
+}
+
+
+
+.related ul{
+
+    padding-left:20px;
+
+}
+
+
+.related a{
+
+    color:#2E7D32;
+
+    text-decoration:none;
+
+}
+
+
+
+.related a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+
+/*====================================
+ TAGS Y COMPARTIR
+=====================================*/
+
+
+.article-footer{
+
+    margin-top:40px;
+
+    border-top:1px solid #ddd;
+
+    padding-top:25px;
+
+}
+
+
+.tags span{
+
+    display:inline-block;
+
+    background:#e8f5e9;
+
+    color:#2E7D32;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    margin:5px;
+
+}
+
+
+
+.share{
+
+    margin-top:20px;
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+
+.share a{
+
+    color:#2E7D32;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+
+.share a:hover{
+
+    color:#1B4332;
+
+}
+
+
+
+
+/*====================================
+ NAVEGACION ARTICULOS
+=====================================*/
+
+
+.article-navigation{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:40px;
+
+}
+
+
+.article-navigation a{
+
+    background:#2E7D32;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+}
+
+
+.article-navigation a:hover{
+
+    background:#1B4332;
+
+}
+
+
+
+/*====================================
+ RESPONSIVE
+=====================================*/
+
+
+@media(max-width:900px){
+
+
+.article-layout{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.sidebar{
+
+    position:static;
+
+}
+
+
+.article-header h1{
+
+    font-size:2.2rem;
+
+}
+
+
+
+.article-content{
+
+    padding:25px;
+
+}
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+.article-content figure img{
+
+    height:250px;
+
+}
+
+
+.article-navigation{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+
+.article-navigation a{
+
+    text-align:center;
+
+}
+
+
+}
+
+@media(max-width:768px){
+
+.blog-hero h1{
+
+    font-size:2.2rem;
+
+}
+
+
+.blog-heading h2{
+
+    font-size:1.8rem;
+
+}
+
+
+.blog-info{
+
+    padding:25px;
+
+}
+
+
+}
